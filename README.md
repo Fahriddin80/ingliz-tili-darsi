@@ -1,25 +1,19 @@
-# Ingliz-Tili Darsi 🇺🇸🇺🇿
+# 🇺🇸 Ingliz Tili Darsi — Web App (Next.js + TailwindCSS)
 
-Ushbu repozitoriy ingliz tilini o'zbek tilida o'rganayotgan foydalanuvchilar uchun mo'ljallangan. Ichida turli darajadagi inglizcha-uzbekcha matnlar, dialoglar, lug‘atlar va grammatik qoida fayllari mavjud.
+Bu loyiha ingliz tilini mustaqil o‘rganayotganlar uchun yaratilgan. Ilova foydalанadigan asosiy ma'lumotlar `komponentlar.json` faylida saqlangan bo‘lib, unda inglizcha iboralar, tarjimalar va grammatik izohlar mavjud.
 
-## 📁 Fayl tarkibi
+## 📦 Loyiha tarkibi
 
-- `words.txt` – 1000+ asosiy inglizcha so'zlar va ularning o‘zbekcha tarjimalari
-- `phrases.txt` – Kundalik hayotda ishlatiladigan iboralar
-- `dialogues.txt` – Real suhbat namunalarining inglizcha va o‘zbekcha matnlari
-- `grammar.md` – Ingliz tili grammatikasi qoidalari (zamondan foydalanish, artikllar, fe’llar)
-- `exercises.txt` – Mustahkamlash uchun testlar va topshiriqlar
-- `audio/` – (agar mavjud bo‘lsa) so‘z va iboralarni tinglash uchun ovozli fayllar
+- `komponentlar.json` — Tarjimalar va o‘rganish komponentlari
+- `pages/` — Next.js sahifalari
+- `tailwind.config.ts` — Tailwind sozlamalari
+- `tsconfig.json` — TypeScript konfiguratsiyasi
+- `next.config.mjs` — Next.js konfiguratsiyasi
+- `package.json` — Dasturga kerakli kutubxonalar
 
-## 🎯 Maqsad
+## 🚀 Ishga tushirish (lokal)
 
-- Boshlang‘ich va o‘rta darajadagi o‘rganuvchilar uchun mustaqil ravishda ingliz tilini o‘rganish imkonini yaratish
-- Inglizcha gapirish, tushunish ва ёзиш қобилиятини ривожлантириш
-- Tarjima orqali lug‘at boyligini oshirish
-
-## 💡 Qanday foydalaniladi
-
-1. Repozitoriyani yuklab oling yoki klon qiling:
-
-```bash
-git clone https://github.com/Fahriddin80/ingliz-tili-darsi.git
+1. Repozitoriyani yuklab oling:
+   ```bash
+   git clone https://github.com/Fahriddin80/ingliz-tili-darsi.git
+   cd ingliz-tili-darsi
